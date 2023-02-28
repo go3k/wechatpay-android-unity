@@ -1,4 +1,4 @@
-package com.camelgames.ig.zha.wxapi;
+package com.wechatpay.gm.wxapi; //Change it into your package name.
 
 import android.app.Activity;
 import android.content.Intent;
