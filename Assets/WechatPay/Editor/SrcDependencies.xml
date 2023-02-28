@@ -1,0 +1,8 @@
+
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.tencent.mm.opensdk:wechat-sdk-android:+">
+    </androidPackage>
+  </androidPackages>
+</dependencies>
+

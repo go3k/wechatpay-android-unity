@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.wechatpay.tool"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <application>
+        <!--   wechat pay   -->
+        <activity android:name=".wxapi.WXPayEntryActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:exported="true"
+                  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="wechatpay"/>
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+    <queries>
+        <package android:name="com.tencent.mm" />
+    </queries>
+</manifest>
